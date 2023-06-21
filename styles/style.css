@@ -1,0 +1,41 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  li {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  html {
+    background-color: #94ee5f;
+  }
+  body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #d4d4d4;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(174, 161, 248);
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
