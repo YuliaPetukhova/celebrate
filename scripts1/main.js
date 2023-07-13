@@ -55,3 +55,8 @@ jQuery.rnd = function(m,n) {
 }
 
 initparticles();
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
