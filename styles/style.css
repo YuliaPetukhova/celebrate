@@ -204,3 +204,11 @@ style{
   font-size:1.4em;
   height:3em;
 }
+
+h1 + p {
+  font-weight: bold;
+  background-color: #ce6a6bc2;
+  color: #fff;
+  padding: .5em;
+}   
+  
