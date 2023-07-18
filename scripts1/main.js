@@ -27,11 +27,11 @@ myButton.onclick = function() {
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
+    var mySrc = myImage.getAttribute('srcset');
     if(mySrc === 'images/image-caracal-2.jpg') {
-      myImage.setAttribute ('src','images/image-dubai.jpg');
+      myImage.setAttribute ('srcset','images/image-dubai.jpg');
     } else {
-      myImage.setAttribute ('src','images/image-caracal-2.jpg');
+      myImage.setAttribute ('srcset','images/image-caracal-2.jpg');
     }
 }
 

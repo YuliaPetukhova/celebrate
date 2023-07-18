@@ -31,8 +31,8 @@
         <div class="container">
             <ul class="myUL">
                 <li><a href="https://www.nationalgeographic.com/animals/mammals/facts/caracal-wildcats-africa" title="Статья про каракала" target="_blank">шлёпика</a></li>
-                <li>квартиры в <strong>Дубайске</strong></li>
-                <li>счастливых и интересных событий</li>
+                <li class="a"> квартиры в <strong>Дубайске</strong></li>
+                <li class="special">счастливых и интересных событий</li>
             </ul>
         </div>
         <hr>
@@ -53,10 +53,12 @@
         
         <figure>
             <div class="center">
-                <img src="images/image-caracal-2.jpg"
-                 alt="Caracal-cat"
-                 width="770"
-                 height="641">
+                <img srcset="images/image-caracal-2.jpg 640w,
+                image-caracal-320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                        (max-width: 480px) 440px,
+                        800px"
+        src="images/image-caracal-2.jpg" alt="Caracal-cat">
           
             <figcaption>A caracal cat and Dubai city on display.</figcaption>
             </div>
@@ -119,10 +121,15 @@
 
 </div>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
 
-<script src="scripts1/main.js"></script>
+<div class="outer">
+    <div class="box">Целую-обнимаю
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="scripts1/main.js"></script>
 <script src='animation.js'></script>
 
 </body>
