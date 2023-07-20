@@ -1,6 +1,6 @@
 body {
-  background: url("image-Seal.jpg") center center no-repeat fixed;
-  background-size: cover;
+  background: url("image-Seal.jpg") center repeat fixed;
+  background-size: contain;
   width: 1230px;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
@@ -211,4 +211,36 @@ h1 + p {
   color: #fff;
   padding: .5em;
 }   
+
+ul {
+  border: 2px solid #ce6a6bc2;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid rgb(48, 145, 184);
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}      
+
+.box  {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.box a:hover {
+  background-color: #ff7d7d;
+  color: rgb(255, 255, 255);
+}
   
