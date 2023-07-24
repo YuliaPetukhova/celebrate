@@ -280,4 +280,44 @@ ul {
 .menu__link:hover {
 	text-decoration: underline;
 }
+
+.main-block__buttons {
+	display: flex;
+  flex-wrap: wrap;
+  margin: -10px 0;
+  align-content: center;
+  flex-direction: column;
+}
+.main-block__button {
+	border-radius: 37px;
+	display: flex;
+	min-height: 48px;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.2px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 150%;
+	padding: 5px 36px;
+	margin: 10px 0;
+	transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 479px) {
+	.main-block__button {
+		flex: 1 1 100%;
+	}
+}
+
+@media (min-width: 479px) {
+	.main-block__button:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.main-block__button_orange{
+	background: rgb(206,106,107);
+	color: #fff;
+}
+
   
