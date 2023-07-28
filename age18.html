@@ -11,22 +11,36 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="age16.html">age17</li></a>
-                <li><a href="age17.html">age18</li></a>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header__container _container">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="index-celebrate.html" class="menu__link">Age16</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="age17.html" class="menu__link">Age17</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="mid">
-        <time datetime="06-24">24 июня</time>
-
-        <h1>С Днём рождения, </h1>
-        <div class="textcontainer">
-            <span class="particletext confetti"><b>&#10084;Поздравляю с 18-летием&#33;&#10084;</b></span>
+    <main class="page">
+        <div class="page__main-block main-block">
+            <div class="main-block__container _container">
+                <div class="main-block__body">
+                <h1 class="main-block__title">С Днём рождения, </h1>
+                <div class="main-block__text">
+                    <b>&#10084;Поздравляю с 18-летием&#33;&#10084;</b>
+                </div>
+            </div>
         </div>
+        <div class="main-block__image _ibg">
+            <img src="images/animal.jpg" alt="animal">
+        </div>
+    </div>
+
         <article>
          <p><strong>Андрюша, желаю тебе:</strong></p>
         </article>
@@ -54,25 +68,6 @@
           <p>Если шлепа<sup>2</sup> равно любви, шлепа должен равняться бесконечности.</p>
 
         <p>Я <em>рада</em>, что ты <em>есть</em>.</p>
-        
-        <figure>
-            <div class="center">
-                <img srcset="images/caracal-18.jpg 6000w"
-        src="images/caracal-18.jpg" alt="Caracal-cat">
-          
-            <figcaption>A caracal cat and Dubai city on display.</figcaption>
-            </div>
-        </figure>
-
-        <figure>
-            <div class="center">
-            <video controls width="400" height="400"
-                poster="images/caracal-18.jpg">
-                <source src="Caracal lives his best life as house cat in Latvia.mp4" type="video/mp4">
-                <p>Your browser doesn't support HTML5 video. Here is a <a href="Caracal lives his best life as house cat in Latvia.mp4">link to the video</a> instead.</p>
-            </video>
-            </div>
-        </figure>
 
         <figure>
             <div class="center">
@@ -93,8 +88,8 @@
     </figure>
 
     <figure>
-        <div class="center">
-  <a href="mailto:">Отправить письмо для именинника</a>
+        <div class="main-block__buttons">
+            <a href="mailto:" class="main-block__button main-block__button_orange">Отправить письмо для именинника</a>
         </div>
     </figure>
 
@@ -103,31 +98,24 @@
             <button>Изменить имя пользователя</button>
         </div>
     </figure>
-
     <form>
         <div class="center">
             <input type="text">
         </div>
     </form>
-
     <hr> 
-<address>
-    <p>Юлия, Ташкент</p>
-  </address>
-
-  <footer>
-    <p>©Авторские права принадлежат Юлии П., 2050. Все права защищены.</p>
-  </footer>
-
 </div>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
-
 <div class="outer">
     <div class="box">Целую-обнимаю
     </div>
 </div>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+<address>
+    <p>Ташкент</p>
+  </address>
+<footer>
+    <p>©Авторские права принадлежат Юлии П., 2050. Все права защищены.</p>
+  </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="scripts1/main.js"></script>
 <script src='animation.js'></script>

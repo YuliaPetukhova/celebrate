@@ -24,7 +24,8 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
-var myImage = document.querySelector('img');
+
+/* var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('srcset');
@@ -34,6 +35,7 @@ myImage.onclick = function() {
       myImage.setAttribute ('srcset','images/image-caracal-2.jpg');
     }
 }
+*/
 
 function initparticles() {
   confetti();
