@@ -25,10 +25,10 @@ myButton.onclick = function() {
   setUserName();
 }
 
-/* var myImage = document.querySelector('img');
+/* let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('srcset');
+    let mySrc = myImage.getAttribute('srcset');
     if(mySrc === 'images/image-caracal-2.jpg') {
       myImage.setAttribute ('srcset','images/image-dubai.jpg');
     } else {
@@ -43,8 +43,8 @@ function initparticles() {
 
 function confetti() {
   $.each($(".particletext.confetti"), function(){
-     var confetticount = ($(this).width()/50)*10;
-     for(var i = 0; i <= confetticount; i++) {
+     let confetticount = ($(this).width()/50)*10;
+     for(let i = 0; i <= confetticount; i++) {
         $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
      }
   });
